@@ -1,6 +1,6 @@
 (ns midje-intro.core-test
-  (:use midje.sweet)
-  (:use [midje-intro.core]))
+  (:require [midje.sweet :refer :all]
+            [midje-intro.core :refer :all]))
 
 (facts "about +"
   (fact "1 plus 2 equals 3"
